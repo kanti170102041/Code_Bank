@@ -23,7 +23,7 @@ int Solution::solve(int A, int B) {
 
 /*
 Recursive memozised code,
-note: vector t should be initialized to -1
+note: vector<vector<int>> t should be initialized with -1
 
 int ways(int D, int S,vector<vector<int>>&t){
     
