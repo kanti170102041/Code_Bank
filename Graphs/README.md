@@ -1,6 +1,6 @@
 # Graphs
 ## INDEX
-1. [Age Fudging](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Age%20Fudging)
+1. [Age Fudging](README.md#1-age-fudging)
 2. [Count the number of nodes at given level in a tree using BFS](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Count%20the%20number%20of%20nodes%20at%20given%20level%20in%20a%20tree%20using%20BFS)
 3. [Cycle Detection in a graph](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Cycle%20Detection%20in%20a%20graph)
 4. [Find Centre of graph](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Find%20Centre%20of%20graph)
