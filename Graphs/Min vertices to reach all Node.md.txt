@@ -1,2 +1,0 @@
-A node with indegree zero has to be included as a staring node.
-so the algo is to print all the nodes with indegree =0
