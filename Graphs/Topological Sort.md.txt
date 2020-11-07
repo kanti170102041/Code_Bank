@@ -1,0 +1,4 @@
+Khan's Algorithm
+
+1. Find the nodes with zero dependencies, add it in a stack.
+2. pop out nodes with zero dependencies and add it into the sorting vector, and remove it updating the indegree.

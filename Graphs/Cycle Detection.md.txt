@@ -1,0 +1,3 @@
+Whether a topological sort is possible or not
+
+The Algo will check for cycles in a directed graph. Basically a DAG(Directed Acyclic Graph) can have a valid topological sort.
