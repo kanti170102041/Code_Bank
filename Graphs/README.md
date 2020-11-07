@@ -1,6 +1,6 @@
 # Graphs
 ## INDEX
-1. [Age Fudging](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#1-age-fudging)
+1. [Age Fudging](#1.-Age-Fudging)
 2. [Count the number of nodes at given level in a tree using BFS](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#2-count-the-number-of-nodes-at-given-level-in-a-tree-using-bfs)
 3. [Cycle Detection in a graph](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#3-cycle-detection-in-a-graph)
 4. [Find Centre of graph](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#4-find-centre-of-graph-minimum-height-trees)
@@ -10,7 +10,7 @@
 
 
 
-## 1. **Age Fudging**
+## 1. Age Fudging
 
 Suppose that n people are living in a village. Everyone in this village has a unique number i(1<=i<=n). It is known that the ages of the people in this village range from 0 to 100.
 q interviews are conducted in this villages. In response to the question "how manny yeays older are you than person bj?" person aj answers "-cj years(1<=j<=q). For the case of cj<0, person bj is -cj years younger. For the case of cj=0, person bj is the same age.
