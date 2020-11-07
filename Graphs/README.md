@@ -1,11 +1,11 @@
 # Graphs
 ## INDEX
-1. [Age Fudging](#1.-Age-Fudging)
-2. [Count the number of nodes at given level in a tree using BFS](#2.-Count-the-number-of-nodes-at-given-level-in-a-tree-using-BFS)
-3. [Cycle Detection in a graph](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#3-cycle-detection-in-a-graph)
-4. [Find Centre of graph](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#4-find-centre-of-graph-minimum-height-trees)
-5. [Minimum Number of Vertices to Reach All Nodes](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#5-minimum-number-of-vertices-to-reach-all-nodes)
-6. [Topological Sort](https://github.com/kanti170102041/Code_Bank/new/kanti170102041-patch-1/Graphs#6-topological-sort-khans-algorithm)
+1. [Age Fudging](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Age%20Fudging)
+2. [Count the number of nodes at given level in a tree using BFS](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Count%20the%20number%20of%20nodes%20at%20given%20level%20in%20a%20tree%20using%20BFS)
+3. [Cycle Detection in a graph](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Cycle%20Detection%20in%20a%20graph)
+4. [Find Centre of graph](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Find%20Centre%20of%20graph)
+5. [Minimum Number of Vertices to Reach All Nodes](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes)
+6. [Topological Sort](https://github.com/kanti170102041/Code_Bank/blob/kanti170102041-patch-1/Graphs/Codes/Topological%20Sort(Khan's%20Algorithm))
 
 
 
