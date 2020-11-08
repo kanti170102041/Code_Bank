@@ -1,4 +1,4 @@
-[home](https://github.com/kanti170102041/Code_Bank/tree/alpha)/[Dinamic Programming](https://github.com/kanti170102041/Code_Bank/tree/alpha/Dynamic%20Programming)
+[home](https://github.com/kanti170102041/Code_Bank)/[Dinamic Programming](https://github.com/kanti170102041/Code_Bank/tree/main/Dynamic%20Programming)
 # Dinamic Programming 
 
 ## Index
