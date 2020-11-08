@@ -70,7 +70,8 @@ so the algo is to print all the nodes with indegree =0.
 Given a directed graph with N number of nodes and exactly N number of edges. Each node has exactly one outgoing edge from it. Find a path such that the maximum number of nodes can be covered from the starting point, and return the starting point.
 
 NOTE: A node can have multiple edges which are pointing towards him, but only one outgoing edge<br />
-![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s---hjNbSiK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/uluzwwtwbjpaon08mc4b.png=70*70)
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s---hjNbSiK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/uluzwwtwbjpaon08mc4b.png" width="250">
+
 Inupt: N = 5<br />
 1->2, 2->1, 3->1, 4->2, 5->3<br />
 Output: 5<br />
