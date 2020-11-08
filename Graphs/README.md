@@ -8,7 +8,7 @@
 4. [Find Centre of graph](README.md#4-find-centre-of-graph)
 5. [Minimum Number of Vertices to Reach All Nodes](README.md#5-minimum-number-of-vertices-to-reach-all-nodes)
 6. [Topological Sort](README.md#6-topological-sort)
-
+7. [Starting node in a directed graph which covers the maximum number of nodes]()
 
 
 
@@ -64,3 +64,20 @@ so the algo is to print all the nodes with indegree =0.
 (*Khan's Algorithm*)
 1. Find the nodes with zero dependencies, add it in a stack.
 2. pop out nodes with zero dependencies and add it into the sorting vector, and remove it updating the indegree.
+
+## 7. [Find the starting node in a directed graph which covers the maximum number of nodes]()
+
+Given a directed graph with N number of nodes and exactly N number of edges. Each node has exactly one outgoing edge from it. Find a path such that the maximum number of nodes can be covered from the starting point, and return the starting point.
+
+NOTE: A node can have multiple edges which are pointing towards him, but only one outgoing edge<br />
+Inupt: N = 5<br />
+1->2, 2->1, 3->1, 4->2, 5->3<br />
+Output: 5<br />
+Explanation: <br />
+If we start from node 1 as beginning then the path is: 1 -> 2<br />
+If we start from node 2 as beginning then the path is: 2 -> 1<br />
+If we start from node 3 as beginning then the path is: 3 -> 1 -> 2<br />
+If we start from node 4 as beginning then the path is: 4 -> 2 -> 1<br />
+If we start from node 5 as beginning then path is: 5 -> 3 -> 1 -> 2<br />
+
+Hence, we can clearly see that if we start for 5, we cover the maximum number of nodes in the graph i.e. 4.
