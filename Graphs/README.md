@@ -8,7 +8,7 @@
 4. [Find Centre of graph](README.md#4-find-centre-of-graph)
 5. [Minimum Number of Vertices to Reach All Nodes](README.md#5-minimum-number-of-vertices-to-reach-all-nodes)
 6. [Topological Sort](README.md#6-topological-sort)
-7. [Starting node in a directed graph which covers the maximum number of nodes]()
+7. [Starting node in a directed graph which covers the maximum number of nodes](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#7-find-the-starting-node-in-a-directed-graph-which-covers-the-maximum-number-of-nodes)
 
 
 
