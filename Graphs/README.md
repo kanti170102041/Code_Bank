@@ -65,7 +65,7 @@ so the algo is to print all the nodes with indegree =0.
 1. Find the nodes with zero dependencies, add it in a stack.
 2. pop out nodes with zero dependencies and add it into the sorting vector, and remove it updating the indegree.
 
-## 7. [Find the starting node in a directed graph which covers the maximum number of nodes]()
+## 7. [Find the starting node in a directed graph which covers the maximum number of nodes](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/Codes/node%20in%20a%20directed%20graph%20which%20covers%20the%20maximum%20number%20of%20nodes.cpp)
 
 Given a directed graph with N number of nodes and exactly N number of edges. Each node has exactly one outgoing edge from it. Find a path such that the maximum number of nodes can be covered from the starting point, and return the starting point.
 
