@@ -2,28 +2,28 @@
 # Dinamic Programming 
 
 ## Index
-1. [Choice of Area]
-2. [Count all subsequences having product less than K]()
-3. [Count Smaller elements to right O(nlogn)]()
-4. [Largest divisible pairs subset]()
-5. [Maximize the sum of selected numbers from an array to make it empty]()
-6. [Maximum number of segments of lengths a, b and c]()
-7. [Maximum path sum for each position with jumps under divisibility condition]()
-8. [Maximum subsequence sum such that no three are consecutive]()
-9. [Maximum sum increasing subsequence from a prefix and a given element after prefix is must]()
-10. [Maximum sum of a path in a Right Number Triangle]()
-11. [N digit numbers with digit sum S]()
-12. [Path with maximum average value]()
-13. [Sieve of Eratosthenes Print all prime Numbers till n]()
-14. [Size of The Subarray With Maximum Sum]()
+1. [Choice of Area](#1-choice-of-area)
+2. [Count all subsequences having product less than K](#2-count-all-subsequences-having-product-less-than-k)
+3. [Count Smaller elements to right O(nlogn)](#3-count-smaller-elements-to-right-onlogn)
+4. [Largest divisible pairs subset](#4-largest-divisible-pairs-subset)
+5. [Maximize the sum of selected numbers from an array to make it empty](#5-maximize-the-sum-of-selected-numbers-from-an-array-to-make-it-empty)
+6. [Maximum number of segments of lengths a, b and c](#6-maximum-number-of-segments-of-lengths-a-b-and-c)
+7. [Maximum path sum for each position with jumps under divisibility condition](#7-maximum-path-sum-for-each-position-with-jumps-under-divisibility-condition)
+8. [Maximum subsequence sum such that no three are consecutive](#8-maximum-subsequence-sum-such-that-no-three-are-consecutive)
+9. [Maximum sum increasing subsequence from a prefix and a given element after prefix is must](#9-maximum-sum-increasing-subsequence-from-a-prefix-and-a-given-element-after-prefix-is-must)
+10. [Maximum sum of a path in a Right Number Triangle](#10-maximum-sum-of-a-path-in-a-right-number-triangle)
+11. [N digit numbers with digit sum S](#11-n-digit-numbers-with-digit-sum-s)
+12. [Path with maximum average value](#12-path-with-maximum-average-value)
+13. [Sieve of Eratosthenes Print all prime Numbers till n](#13-sieve-of-eratosthenes)
+14. [Size of The Subarray With Maximum Sum](#14-size-of-the-subarray-with-maximum-sum)
 
 
 
-## 1. [Choice of Area]()
+## 1. [Choice of Area](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Choice%20of%20Area)
 
 Consider a game, in which you have two types of powers, A and B and there are 3 types of Areas X, Y and Z. Every second you have to switch between these areas, each area has specific properties by which your power A and power B increase or decrease. We need to keep choosing areas in such a way that our survival time is maximized. Survival time ends when any of the powers, A or B reaches less than 0.
 
-## 2. [Count all subsequences having product less than K]()
+## 2. [Count all subsequences having product less than K](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Count%20all%20subsequences%20having%20product%20less%20than%20K)
 
 Input : [1, 2, 3, 4]<br /> 
         k = 10<br />
@@ -36,7 +36,7 @@ Input  : [4, 8, 7, 2]<br />
          k = 50<br />
 Output : 9
 
-## 3. [Count Smaller elements to right O(nlogn)]()
+## 3. [Count Smaller elements to right O(nlogn)](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Count%20Smaller%20elements%20to%20right%20O(nlogn))
 
 Given an array Arr of size N containing positive integers. Count number of smaller elements on right side of each array.
 Example 1:
@@ -65,11 +65,11 @@ Constraints:<br />
 1 ≤ N ≤ 106<br />
 0 <= Arri  <= 108<br\><br />
 
-## 4. [Largest divisible pairs subset]()
+## 4. [Largest divisible pairs subset](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Largest%20divisible%20pairs%20subset)
 
 Given an array of n distinct elements, find length of the largest subset such that every pair in the subset is such that the larger element of the pair is divisible by smaller element.
 
-## 5. [Maximize the sum of selected numbers from an array to make it empty]()
+## 5. [Maximize the sum of selected numbers from an array to make it empty](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Maximize%20the%20sum%20of%20selected%20numbers%20from%20an%20array%20to%20make%20it%20empty)
 
 Given an array of N numbers, we need to maximize the sum of selected numbers. At each step, you need to select a number Ai, delete one occurrence of it and delete all occurrences of Ai-1 and Ai+1 (if they exist) in the array. Repeat these steps until the array gets empty. The problem is to maximize the sum of the selected numbers.
 Note: We have to delete all the occureneces of Ai+1 and Ai-1 elements if they are present in the array and not Ai+1 and Ai-1.
@@ -90,7 +90,7 @@ since 1 and 3 are deleted. Select 2 in next two steps,
 and then select 4 in the last step.<br />
 We get a sum of 2+2+2+4=10 which is the maximum possible.
 
-## 6. [Maximum number of segments of lengths a, b and c]()
+## 6. [Maximum number of segments of lengths a, b and c](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Maximum%20number%20of%20segments%20of%20lengths%20a%2C%20b%20and%20c)
 
 Input : N = 7, a = 5, b, = 2, c = 5 <br />
 Output : 2 <br />
@@ -103,7 +103,7 @@ N can be divided into 17 segments of 1 or 8
 segments of 2 and 1 segment of 1. But 17 segments
 of 1 is greater than 9 segments of 2 and 1.
 
-## 7. [Maximum path sum for each position with jumps under divisibility condition]()
+## 7. [Maximum path sum for each position with jumps under divisibility condition](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Maximum%20path%20sum%20for%20each%20position%20with%20jumps%20under%20divisibility%20condition)
 
 Given an array of n positive integers. Initially we are at first position. We can jump to position y (1 <= y <= n) from position x (1 <= x <= n) if x divides y and x < y. The task is to print maximum sum path ending at every position x.
 Note : Since first element is at position 1, we can jump to any position from here as 1 divides all other position numbers.<br />
@@ -136,7 +136,7 @@ For position 6, path can be jump from position
 But path 1 -> 2 -> 6 gives maximum sum for
 position 6 = 2 + 3 + 5 = 10.
 
-## 8. [Maximum subsequence sum such that no three are consecutive]()
+## 8. [Maximum subsequence sum such that no three are consecutive](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Maximum%20subsequence%20sum%20such%20that%20no%20three%20are%20consecutive)
 
 Given a sequence of positive numbers, find the maximum sum that can be formed which has no three consecutive elements present.
 Input: arr[] = {1, 2, 3} <br />
@@ -154,7 +154,7 @@ Output: 4<br />
 Input: arr[] = {1, 2, 3, 4, 5, 6, 7, 8}<br />
 Output: 27
 
-## 9. [Maximum sum increasing subsequence from a prefix and a given element after prefix is must]()
+## 9. [Maximum sum increasing subsequence from a prefix and a given element after prefix is must](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Maximum%20sum%20increasing%20subsequence%20from%20a%20prefix%20and%20a%20given%20element%20after%20prefix%20is%20must)
 
 Input: arr[] = {1, 101, 2, 3, 100, 4, 5} i-th index = 4 (Element at 4th index is 100) K-th index = 6 (Element at 6th index is 5.) <br />
 Output: 11 <br />
@@ -164,7 +164,7 @@ Input: arr[] = {1, 101, 2, 3, 100, 4, 5} i-th index = 2 (Element at 2nd index is
 Output: 7 <br />
 Explanation: So we need to calculate the maximum sum of subsequence (1 101 2 4) such that 4 is necessarily included in the subsequence, so answer is 7 by subsequence (1 2 4).
 
-## 10. [Maximum sum of a path in a Right Number Triangle]()
+## 10. [Maximum sum of a path in a Right Number Triangle](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Maximum%20sum%20of%20a%20path%20in%20a%20Right%20Number%20Triangle)
 
 Given a right triangle of numbers, find the largest of the sum of numbers that appear on the paths starting from the top towards the base, so that on each path the next number is located directly below or below-and-one-place-to-the-right.
 
@@ -180,7 +180,7 @@ Input : 2<br />
 Output : 10<br />
 Explanation : 2 + 1 + 7
 
-## 11. [N digit numbers with digit sum S]()
+## 11. [N digit numbers with digit sum S](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/N%20digit%20numbers%20with%20digit%20sum%20S)
 
 Find out the number of N digit numbers, whose digits on being added equals to a given number S. Note that a valid number starts from digits 1-9 except the number 0 itself. i.e. leading zeroes are not allowed.
 
@@ -189,7 +189,7 @@ N = 2, S = 4<br />
 Valid numbers are {22, 31, 13, 40}<br />
 Hence output 4
 
-## 12. [Path with maximum average value]()
+## 12. [Path with maximum average value](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Path%20with%20maximum%20average%20value)
 
 Given a square matrix of size N*N, where each cell is associated with a specific cost. A path is defined as a specific sequence of cells which starts from the top left cell move only right or down and ends on bottom right cell. We want to find a path with the maximum average over all existing paths. Average is computed as total cost divided by the number of cells visited in the path.
 Input : Matrix = [1, 2, 3 <br />
@@ -199,7 +199,7 @@ Output : 5.8 <br />
 Path with maximum average is, 1 -> 4 -> 7 -> 8 -> 9<br />
 Sum of the path is 29 and average is 29/5 = 5.8
 
-## 13. [Sieve of Eratosthenes]()
+## 13. [Sieve of Eratosthenes](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Sieve%20of%20Eratosthenes)
 
 Print all Prime numbers less than equal to n 
 
@@ -210,7 +210,7 @@ Input : n = 20 <br />
 Output: 2 3 5 7 11 13 17 19 <br />
 The sieve of Eratosthenes is one of the most efficient ways to find all primes smaller than n when n is smaller than 10 million
 
-## 14. [Size of The Subarray With Maximum Sum]()
+## 14. [Size of The Subarray With Maximum Sum](https://github.com/kanti170102041/Code_Bank/blob/alpha/Dynamic%20Programming/Code/Size%20of%20The%20Subarray%20With%20Maximum%20Sum)
 
 An array is given, find length of the subarray having maximum sum.<br />
 Input :  a[] = {1, -2, 1, 1, -2, 1}<br />
