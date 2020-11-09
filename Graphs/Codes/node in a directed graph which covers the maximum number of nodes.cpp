@@ -36,7 +36,7 @@ int main()
    cin>>q;
    vector<vector<int>> g(n);
    unordered_map<int,int> Deg;
-   int minIndeg=INT_MAX;
+   
    for(int i=0;i<q;i++){
        int p1,p2;
        cin>>p1>>p2;
