@@ -4,10 +4,10 @@ using namespace std;
 
 int dfs(vector<vector<int>> &g, vector<bool> &vis,int at){
     vis[at]=true;
-    int c=1;
+    int c=0;
     for(int i=0;i<g[at].size();i++){
         if(vis[g[at][i]]==false)
-        c+=dfs(g,vis,g[at][i]);
+        c=max(c,1+dfs(g,vis,g[at][i]);
     }
     return c;
 }
