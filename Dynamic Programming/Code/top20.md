@@ -1,11 +1,11 @@
-Top 20 Dynamic Programming Interview Questions
+# Top 20 Dynamic Programming Interview Questions
 ## Index
 1. [LCS (longest common Subsequence)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#1-lcs-longest-common-subsequence)
 2. [LIS (Longest Increasing Subsequence)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#2-lis-longest-increasing-subsequence)
 3. [Edit Distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#3-edit-distance)
 4. [Subset Sum Problem](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#4subset-sum-problem)
 5. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#4-minimum-sum-partition)
-6. [Count Number of ways to cover a distance]()
+6. [Count Number of ways to cover a distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#6-count-number-of-ways-to-cover-a-distance)
 7.
 8.
 9.
