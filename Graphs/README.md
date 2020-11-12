@@ -83,3 +83,10 @@ If we start from node 4 as beginning then the path is: 4 -> 2 -> 1<br />
 If we start from node 5 as beginning then path is: 5 -> 3 -> 1 -> 2<br />
 
 Hence, we can clearly see that if we start for 5, we cover the maximum number of nodes in the graph i.e. 4.
+## 8. [Prim's Algorithm, Minimum Spanning tree](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/Codes/prims.cpp)
+Prim's is a Greedy MST Algorithm. It has a time complexity of O(ElogV)
+Algorithm:
+Maintain a min Priority Queue (pq) that sorts edges based on min edge cost, this will be used to determine the next node to visit and the edge used to get there.
+Start the algorithm on any node s, mark s as visited and iterate over all edges of s, adding them to the pq.
+while the pq is not empty and mst has not been formed dequeue edge from the pq, If the dequeue edge is outdated(already visited) then skip it and pill again otherwise make it visited and the selected edge to the mst.
+eterate over the new current node's edge and add all its edge to the pq. Do not add edges to the pq which point to already visited nodes.
