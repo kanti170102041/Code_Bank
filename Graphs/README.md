@@ -9,7 +9,7 @@
 5. [Minimum Number of Vertices to Reach All Nodes](README.md#5-minimum-number-of-vertices-to-reach-all-nodes)
 6. [Topological Sort](README.md#6-topological-sort)
 7. [Starting node in a directed graph which covers the maximum number of nodes](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#7-find-the-starting-node-in-a-directed-graph-which-covers-the-maximum-number-of-nodes)
-
+8. [Prim's Algorithm-Minimum spanning Tree](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#8-prims-algorithm-minimum-spanning-tree)
 
 
 ## 1. [Age Fudging](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/Codes/Age%20Fudging.cpp)
@@ -87,6 +87,9 @@ Hence, we can clearly see that if we start for 5, we cover the maximum number of
 Prim's is a Greedy MST Algorithm. It has a time complexity of O(ElogV)
 Algorithm:
 Maintain a min Priority Queue (pq) that sorts edges based on min edge cost, this will be used to determine the next node to visit and the edge used to get there.
+
 Start the algorithm on any node s, mark s as visited and iterate over all edges of s, adding them to the pq.
+
 while the pq is not empty and mst has not been formed dequeue edge from the pq, If the dequeue edge is outdated(already visited) then skip it and pill again otherwise make it visited and the selected edge to the mst.
+
 eterate over the new current node's edge and add all its edge to the pq. Do not add edges to the pq which point to already visited nodes.
