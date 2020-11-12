@@ -3,7 +3,7 @@ Top 20 Dynamic Programming Interview Questions
 1. [LCS (longest common Subsequence)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#1-lcs-longest-common-subsequence)
 2. [LIS (Longest Increasing Subsequence)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#2-lis-longest-increasing-subsequence)
 3. [Edit Distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#3-edit-distance)
-4.
+4. [Minimum Sum Partition]()
 5.
 6.
 7.
@@ -41,3 +41,17 @@ Given two strings str1 and str2 and below operations that can performed on str1.
 2.Remove<br />
 3.Replace<br />
 All of the above operations are of equal cost.
+## 4. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/min%20sum%20partition.cpp)
+
+Given a set of integers, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum. 
+If there is a set S with n elements, then if we assume Subset1 has m elements, Subset2 must have n-m elements and the value of abs(sum(Subset1) – sum(Subset2)) should be minimum.
+Example: 
+
+Input:  arr[] = {1, 6, 11, 5} <br />
+Output: 1<br />
+Explanation:<br />
+Subset1 = {1, 5, 6}, sum of Subset1 = 12 <br />
+Subset2 = {11}, sum of Subset2 = 11 <br />
+
+let S be the sum of all numbers in array
+Sol: the ans is S-2.x1 where x1 is the max number in range 0 to S/2 which has a valid subset sum.
