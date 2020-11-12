@@ -1,6 +1,8 @@
 [Home](https://github.com/kanti170102041/Code_Bank)/[Dinamic Programming](https://github.com/kanti170102041/Code_Bank/tree/main/Dynamic%20Programming)
 # Dinamic Programming 
 
+### [Top 20 Dynamic Programming Interview Questions](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md)
+
 ## Index
 1. [Choice of Area](#1-choice-of-area)
 2. [Count all subsequences having product less than K](#2-count-all-subsequences-having-product-less-than-k)
