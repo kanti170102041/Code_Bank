@@ -2,7 +2,7 @@ Top 20 Dynamic Programming Interview Questions
 ## Index
 1. [LCS (longest common Subsequence)](https://github.com/kanti170102041/Code_Bank/new/main/Dynamic%20Programming/Code#1-lcs-longest-common-subsequence)
 2. [LIS (Longest Increasing Subsequence)](https://github.com/kanti170102041/Code_Bank/new/main/Dynamic%20Programming/Code#2-lis-longest-increasing-subsequence)
-3. [Edit Distance](https://github.com/kanti170102041/Code_Bank/new/main/Dynamic%20Programming/Code#3-edit-distance)
+3. [Edit Distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#3-edit-distance)
 4.
 5.
 6.
