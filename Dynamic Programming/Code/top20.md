@@ -3,8 +3,8 @@ Top 20 Dynamic Programming Interview Questions
 1. [LCS (longest common Subsequence)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#1-lcs-longest-common-subsequence)
 2. [LIS (Longest Increasing Subsequence)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#2-lis-longest-increasing-subsequence)
 3. [Edit Distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#3-edit-distance)
-4. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#4-minimum-sum-partition)
-5.
+4. [Subset Sum Problem]()
+5. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#4-minimum-sum-partition)
 6.
 7.
 8.
@@ -41,7 +41,21 @@ Given two strings str1 and str2 and below operations that can performed on str1.
 2.Remove<br />
 3.Replace<br />
 All of the above operations are of equal cost.
-## 4. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/min%20sum%20partition.cpp)
+
+## 4.[Subset Sum Problem](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/subsetsum.cpp)
+
+Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum
+Example: 
+
+Input: set[] = {3, 34, 4, 12, 5, 2}, sum = 9<br />
+Output: True  <br />
+There is a subset (4, 5) with sum 9.
+
+Input: set[] = {3, 34, 4, 12, 5, 2}, sum = 30<br />
+Output: False<br />
+There is no subset that add up to 30.
+
+## 5. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/min%20sum%20partition.cpp)
 
 Given a set of integers, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum. 
 If there is a set S with n elements, then if we assume Subset1 has m elements, Subset2 must have n-m elements and the value of abs(sum(Subset1) – sum(Subset2)) should be minimum.
