@@ -5,7 +5,7 @@ Top 20 Dynamic Programming Interview Questions
 3. [Edit Distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#3-edit-distance)
 4. [Subset Sum Problem](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#4subset-sum-problem)
 5. [Minimum Sum Partition](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/top20.md#4-minimum-sum-partition)
-6.
+6. [Count Number of ways to cover a distance]()
 7.
 8.
 9.
@@ -69,3 +69,16 @@ Subset2 = {11}, sum of Subset2 = 11 <br />
 
 let S be the sum of all numbers in array
 Sol: the ans is S-2.x1 where x1 is the max number in range 0 to S/2 which has a valid subset sum.
+## 6. [Count number of ways to cover a distance](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/cover%20a%20distance.cpp)
+
+Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps.
+Examples:
+
+Input: n = 3<br />
+Output: 4<br />
+Explantion:<br />
+Below are the four ways<br/>
+ 1 step + 1 step + 1 step<br/>
+ 1 step + 2 step<br/>
+ 2 step + 1 step<br/>
+ 3 step
