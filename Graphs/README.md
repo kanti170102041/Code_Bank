@@ -10,7 +10,7 @@
 6. [Topological Sort](README.md#6-topological-sort)
 7. [Starting node in a directed graph which covers the maximum number of nodes](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#7-find-the-starting-node-in-a-directed-graph-which-covers-the-maximum-number-of-nodes)
 8. [Prim's Algorithm-Minimum spanning Tree](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#8-prims-algorithm-minimum-spanning-tree)
-9. [Knight Rider]()
+9. [Knight Rider](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#9-knight-rider)
 
 ## 1. [Age Fudging](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/Codes/Age%20Fudging.cpp)
 
@@ -104,6 +104,6 @@ Rob's challenge is to determine the lowest number of moves the knight needs to m
 Input: 
 First line contains the number of Pawns<br />
 next M lines contains pair of numbers that denote pawn coordinates<br />
-next line conatins pair of numbers that denote knight coordinates
-Output: 
+next line conatins pair of numbers that denote knight coordinates<br />
+Output: <br />
 Min No. of moves to kill all pawns
