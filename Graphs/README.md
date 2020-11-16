@@ -10,7 +10,7 @@
 6. [Topological Sort](README.md#6-topological-sort)
 7. [Starting node in a directed graph which covers the maximum number of nodes](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#7-find-the-starting-node-in-a-directed-graph-which-covers-the-maximum-number-of-nodes)
 8. [Prim's Algorithm-Minimum spanning Tree](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/README.md#8-prims-algorithm-minimum-spanning-tree)
-
+9. [Knight Rider]()
 
 ## 1. [Age Fudging](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/Codes/Age%20Fudging.cpp)
 
@@ -93,3 +93,17 @@ Start the algorithm on any node s, mark s as visited and iterate over all edges 
 while the pq is not empty and mst has not been formed dequeue edge from the pq, If the dequeue edge is outdated(already visited) then skip it and pill again otherwise make it visited and the selected edge to the mst.
 
 eterate over the new current node's edge and add all its edge to the pq. Do not add edges to the pq which point to already visited nodes.
+
+## 9. [Knight Rider](https://github.com/kanti170102041/Code_Bank/blob/main/Graphs/Codes/knight%20rider.cpp)
+
+Mandy's elder brother Rob is supposed to be a chess whizard. Mandy wants to test her brother's abilities and gives him a challenge.
+On a standard 8x8 chess board, she places one knight at coordinates X. She then placces M other pawns at varius coordinated Yi (i= 1to M).
+
+Rob's challenge is to determine the lowest number of moves the knight needs to make to kill all the 'M' pawns As we know, a knight move in L shape i.e 2 horizontal 1 vertical Or 2 vertica one horizontal cells. Your goals is to help Rob beat Mandy's challenge.
+
+Input: 
+First line contains the number of Pawns<br />
+next M lines contains pair of numbers that denote pawn coordinates<br />
+next line conatins pair of numbers that denote knight coordinates
+Output: 
+Min No. of moves to kill all pawns
