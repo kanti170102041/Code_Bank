@@ -19,7 +19,7 @@
 13. [Sieve of Eratosthenes Print all prime Numbers till n](#13-sieve-of-eratosthenes)
 14. [Size of The Subarray With Maximum Sum](#14-size-of-the-subarray-with-maximum-sum)
 15. [Length Of longest Increasing Subsequence  O(NlogN)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/README.md#15-length-of-longest-increasing-subsequence)
-
+16. [The Butterfly Effect (Hackerearth)]()
 
 ## 1. [Choice of Area](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/Choice%20of%20Area.cpp)
 
@@ -238,3 +238,38 @@ The longest increasing subsequences are {3} and {2}
 Input: arr[] = {50, 3, 10, 7, 40, 80}<br />
 Output: Length of LIS = 4<br />
 The longest increasing subsequence is {3, 7, 40, 80}
+
+## 16. [The Butterfly Effect (Hackerearth)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/The%20butterfly%20effect.cpp)
+You are given integers N and K , where N is the number of points on the x-axis and K is the number of available colors (1,2,3...K) of a butterfly.
+
+You want to place butterflies on the X-axis next to each other such that no butterfly of the same color is sitting adjacent. Also, there is another integer X which means butterflies of color X are allowed to sit adjacent to each other.
+
+Find the number of such possible arrangements mod 1000000007 .
+
+Input format
+
+The first line of input contains T denoting the number of test cases.
+The first line of each test case contains N, K,X and  where N is the number of points, K is the number of colors available, and X is the color of the butterfly that is allowed to sit adjacent.
+Note: X can be greater than K
+
+Output format
+
+For each test case, print the number of arrangements mod 100000007.
+Example
+INPUT:<br/>
+4<br/>
+3 2 1<br/>
+5 4 3<br/>
+4 2 2<br/>
+5 2 3<br/>
+
+output:
+5<br/>
+469<br/>
+8<br/>
+2<br/>
+
+
+
+
+
