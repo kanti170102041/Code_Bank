@@ -19,7 +19,7 @@
 13. [Sieve of Eratosthenes Print all prime Numbers till n](#13-sieve-of-eratosthenes)
 14. [Size of The Subarray With Maximum Sum](#14-size-of-the-subarray-with-maximum-sum)
 15. [Length Of longest Increasing Subsequence  O(NlogN)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/README.md#15-length-of-longest-increasing-subsequence)
-16. [The Butterfly Effect (Hackerearth)]()
+16. [The Butterfly Effect (Hackerearth)](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/README.md#16-the-butterfly-effect-hackerearth)
 
 ## 1. [Choice of Area](https://github.com/kanti170102041/Code_Bank/blob/main/Dynamic%20Programming/Code/Choice%20of%20Area.cpp)
 
@@ -263,7 +263,7 @@ INPUT:<br/>
 4 2 2<br/>
 5 2 3<br/>
 
-output:
+output:<br/>
 5<br/>
 469<br/>
 8<br/>
